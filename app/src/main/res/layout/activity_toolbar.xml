@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToolbarActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/AlertDialog.AppCompat.Light"
+        app:logo="@mipmap/ic_launcher"
+        app:navigationIcon="@drawable/arrow_back_black_18x18"
+        app:popupTheme="@style/toolBar_pop_item"
+        app:subtitle="副标题"
+        app:subtitleTextColor="#fff"
+        app:title="标题哈哈哈啊哈哈啊哈哈"
+        app:titleTextColor="#fff" />
+
+</android.support.constraint.ConstraintLayout>

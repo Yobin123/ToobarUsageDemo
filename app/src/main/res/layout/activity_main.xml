@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_reveal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="揭露动画" />
+
+    <Button
+        android:id="@+id/btn_share_element"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="共享元素动画"
+        app:layout_constraintTop_toBottomOf="@id/btn_reveal" />
+
+    <Button
+        android:id="@+id/btn_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="toolbar的使用"
+        app:layout_constraintTop_toBottomOf="@id/btn_share_element" />
+
+    <Button
+        android:id="@+id/btn_coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="吸顶（AppBarLayout使用）"
+        app:layout_constraintTop_toBottomOf="@id/btn_toolbar" />
+
+</android.support.constraint.ConstraintLayout>
