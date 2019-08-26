@@ -36,11 +36,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, SuctionTopActivity.class));
             }
         });
-        
+
         findViewById(R.id.btn_toolbar).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, ToolbarActivity.class));
+            }
+        });
+        findViewById(R.id.btn_collapsing).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, CollapsingActivity.class));
             }
         });
 
